@@ -45,6 +45,12 @@ searchBtn.addEventListener("click", () => {
                   data[0].currencies[Object.keys(data[0].currencies)].name
                 } - ${Object.keys(data[0].currencies)[0]}</span>
             </div>
+            <div class="wrapper">
+            <div class="data-wrapper">
+                <h4>Sınır Komşuları:</h4>
+                <span>${data[0].borders}</span>
+            </div>
+        </div>
         </div>
          <div class="wrapper">
             <div class="data-wrapper">
